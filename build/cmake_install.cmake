@@ -1,4 +1,4 @@
-# Install script for directory: /Users/admin/evenzero/s4/web3/tfhe/src
+# Install script for directory: /Users/admin/evenzero/inversepolarity/web3/tfhe/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "optim")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,39 +34,39 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tfhe" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/lagrangehalfc_arithmetic.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/lwe-functions.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/lwebootstrappingkey.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/lwekey.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/lwekeyswitch.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/lweparams.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/lwesamples.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/numeric_functions.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/polynomials.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/polynomials_arithmetic.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tfhe.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tfhe_core.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tfhe_garbage_collector.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tfhe_gate_bootstrapping_functions.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tfhe_gate_bootstrapping_structures.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tfhe_generic_streams.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tfhe_generic_templates.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tfhe_io.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tgsw.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tgsw_functions.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tlwe.h"
-    "/Users/admin/evenzero/s4/web3/tfhe/src/include/tlwe_functions.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/lagrangehalfc_arithmetic.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/lwe-functions.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/lwebootstrappingkey.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/lwekey.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/lwekeyswitch.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/lweparams.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/lwesamples.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/numeric_functions.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/polynomials.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/polynomials_arithmetic.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tfhe.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tfhe_core.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tfhe_garbage_collector.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tfhe_gate_bootstrapping_functions.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tfhe_gate_bootstrapping_structures.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tfhe_generic_streams.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tfhe_generic_templates.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tfhe_io.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tgsw.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tgsw_functions.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tlwe.h"
+    "/Users/admin/evenzero/inversepolarity/web3/tfhe/src/include/tlwe_functions.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/admin/evenzero/s4/web3/tfhe/build/libtfhe/cmake_install.cmake")
+  include("/Users/admin/evenzero/inversepolarity/web3/tfhe/build/libtfhe/cmake_install.cmake")
 
 endif()
 
@@ -78,5 +78,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/admin/evenzero/s4/web3/tfhe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/admin/evenzero/inversepolarity/web3/tfhe/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

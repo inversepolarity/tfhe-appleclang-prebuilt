@@ -28,13 +28,13 @@ build: src/test/googletest/CMakeLists.txt
 
 builddtests:
 	rm -rf $@; true; mkdir $@; 
-	cd $@; cmake ../src ${CMAKE_DTESTS_OPTS}; 
+	cd $@; cmake ../src ${CMAKE_DTESTS_OPTS};
 	cd $@; cmake ../src ${CMAKE_DTESTS_OPTS};
 	cd ..
 
 buildotests:
-	rm -rf $@; true; mkdir $@; 
-	cd $@; cmake ../src ${CMAKE_OTESTS_OPTS}; 
+	rm -rf $@; true; mkdir $@;
+	cd $@; cmake ../src ${CMAKE_OTESTS_OPTS};
 	cd $@; cmake ../src ${CMAKE_OTESTS_OPTS};
 	cd ..
 
