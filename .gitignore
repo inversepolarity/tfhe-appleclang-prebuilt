@@ -5,3 +5,5 @@ doc
 CMakeFiles/
 .DS_Store
 *.key
+*.dSYM/
+*.data
