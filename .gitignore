@@ -4,3 +4,4 @@ callgrind.*
 doc
 CMakeFiles/
 .DS_Store
+*.key
